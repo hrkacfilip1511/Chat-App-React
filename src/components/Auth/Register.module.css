@@ -1,0 +1,79 @@
+.registerContainer {
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: wheat;
+  padding: 10px;
+  border: 13px solid rgb(215, 200, 200);
+}
+.title {
+  width: 100%;
+  text-align: center;
+  color: rgb(247, 161, 161);
+}
+.username,
+.email,
+.password,
+.passwordConfirmation {
+  width: 80%;
+  border: 3px solid rgb(215, 200, 200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  margin-top: 20px;
+  transform: translate(-50%);
+  background-color: rgb(247, 207, 207);
+}
+input:focus {
+  outline: none;
+}
+.username input,
+.email input,
+.password input,
+.passwordConfirmation input {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  width: 85%;
+}
+.icon {
+  width: 15%;
+
+  color: rgb(178, 169, 171);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.messageTxt {
+  width: 100%;
+  text-align: center;
+}
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.actions button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(247, 161, 161);
+  width: 40%;
+  padding: 8px 13px;
+  color: white;
+  border-radius: 10px;
+}
+.actions button:hover {
+  background-color: rgb(255, 143, 143);
+}
+.loadingTxt {
+  width: 100%;
+  text-align: center;
+}
+.warningTxt {
+  width: 100%;
+  text-align: center;
+}
